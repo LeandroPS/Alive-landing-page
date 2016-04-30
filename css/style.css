@@ -1,0 +1,52 @@
+*, *:after, *:before{
+	-webkit-font-smoothing: antialiased;
+    font-smoothing: antialiased;
+    text-rendering: optimizeLegibility;
+}
+
+body{
+	margin: 0 auto;
+}
+
+div.tudo{
+	width: 600px;
+	max-width: 100%;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translateX(-50%) translateY(-50%);
+	text-align: center;
+}
+
+	div.tudo img.logo{
+		display: block;
+		left: 50%;
+		transform: translateX(-50%);
+		position: relative;
+		width: calc(100% - 80px);
+	}
+
+	div.tudo span.aviso{
+		display: block;
+		font-family: 'Roboto Slab', serif;
+		
+		margin: 40px 10px;
+		
+	}
+
+	div.tudo div.contato{
+		display: block;
+	}
+
+		div.tudo div.contato a{
+			color: #000;
+			text-decoration: none;
+		}
+
+		div.tudo div.contato span{
+			
+		}
+
+			div.tudo div.contato a:first-child span{
+				margin-right: 20px
+			}
